@@ -1,6 +1,6 @@
 :root {
     --primary: #f8f8f8;
-    --secondary: rgb(230, 13, 175);
+    --secondary: rgb(122, 20, 25);
 }
 
 * {
@@ -10,7 +10,12 @@ box-sizing: border-box;
 }
 
 body {
+    background-image: url('https://th.bing.com/th/id/R.9f824bb9a7578ec407716d92d54da16d?rik=psgxIxEgNCwerQ&riu=http%3a%2f%2fwww.solofondos.com%2fwp-content%2fuploads%2f2015%2f11%2fFondos-para-paginas-web-grandes.jpg&ehk=7oK%2fufiVrkzdOWJ062DDRxx6hgfmM%2bsTHNYBNav4JCA%3d&risl=&pid=ImgRaw&r=0');
     background-color: var(--secondary);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 .background {
@@ -27,7 +32,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     max-width: 1200px;
-    gap: 24 px;
+    gap: 24px;
 }
 
 .articles article {
@@ -37,6 +42,7 @@ body {
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     border-radius: 16px;
+    background-color: #ffffff;
 }
 
 .articles article a {
@@ -79,4 +85,13 @@ body {
 
 .articles article:hover img {
     transform: scale(1.5);
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    font-family: 'Bangers', cursive;
+    font-style: italic;
+    font-size: 30px;
 }
